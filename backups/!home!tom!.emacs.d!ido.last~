@@ -1,0 +1,45 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/tom/" . ".emacs.d/")
+ ("/home/tom/clojure-noob/src/" . "clojure_noob/")
+ ("/home/tom/clojure-noob/" . "src/")
+ ("/home/tom/.emacs.d/" . "customizations/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/tom/.emacs.d/"
+ "/home/tom/clojure-noob/src/clojure_noob/"
+ "/home/tom/.emacs.d/customizations/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "core.clj"
+ "ui.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/tom/.emacs.d/" (22753 27332 504151 243000) "elpa/" "backups/" "el-get/" "init.el~" "customizations/" "./" "cider-history" ".smex-items" "auto-save-list/" ".recentf" "projectile-bookmarks.eld" "places" "README.md" ".git/" "../" "ido.last" "init.el" "themes/")
+
+ ("/home/tom/clojure-noob/" (22753 27369 208410 134000) "project.clj" "doc/" "./" ".hgignore" ".gitignore" "resources/" "src/" "README.md" ".nrepl-port" "target/" "CHANGELOG.md" "LICENSE" "../" ".lein-repl-history" "test/")
+
+ ("/home/tom/" (22753 26804 450997 974000) "fnmode~" ".sbclrc" "PycharmProject/" "bordeaux/" ".oracle_jre_usage/" ".pgadmin3" ".fzf.zsh" ".adobe/" ".compiz/" ".gitconfig" "R/" ".sudo_as_admin_successful" ".xinputrc" ".Xresources" "Desktop/" "RPM-GPG-GROUP-KEY-ilg" "quicklisp/" "java_error_in_PYCHARM.hprof" "quicklisp.lisp.asc" ".shutter/" ".gtkrc-2.0" "UoBRobotics/" ".dmrc" ".task/" "colour_test_orange.h264" ".remap_bluetooth_keys.sh" ".zsh_history" ".rstudio-desktop/" ".apport-ignore.xml" ".gstreamer-0.10/" "colour_test_blue.h264" "fnmody~" ".gnome/" ".vimundo/" "colour_test_yellow.h264" ".Skype/" ".zcompdump-tom-X1C4-5.2" ".zcompdump" ".vimrc.local" "Music/" ".viminfo" ".fromscratch/" ".lein/" ".mozilla/" ".PyCharmCE2016.3/" ".warprc" ".profile" ".xsel.log" ".gconf/" ".remmina/" ".thumbnails/" ".vimrc.bundles" "IDAProject/" "ProjectNets/" ".jssc/" "fonts/" "sketchbook/" ".local/" ".Private/" ".fzf.bash" "dev/" "OpenCV/" ".java/" ".lesshst" "snap/" ".ipython/" ".vimrc.20170120_1484912606" ".ilg-config" ".vimswap/" ".arduino/" ".purple/" "Arduino/" "haikarainen-light-c4820e7/" ".python_history" "fnmodz~" ".texlive2016/" ".vim/" ".PyCharm2016.3/" "vim/" ".emacs.d/" ".spf13-vim-3/" ".xsession-errors.old" "imutils/" "Videos/" ".Xauthority" "raspberrypicv/" "Codealike/" "Dropbox/" ".scenebuilder/" ".NERDTreeBookmarks" ".pgpass" ".ssh/" ".thunderbird/" ".vscode/" "core" ".pki/" ".macromedia/" ".xsession-errors" "tom.iml" ".gnome2_private/" "vimwiki/" ".zsh-update" "network-manager-l2tp/" ".fehbg" ".cache/" "UBRpi/" ".slime-history.eld" "out.gif" "hello.lisp" ".dropbox-dist/" ".Rhistory" ".jupyter/" ".dbus/" ".zshrc" "quicklisp.lisp" ".selected_editor" ".m2/" ".screenlayout/" ".vimrc.before" ".gnupg/" "postgres_files/" "udev-monitor-hotplug/" ".ICEauthority" ".emacs_backup" "colour_test_green.h264" ".vimrc" ".fonts/" "Public/" "install-opencv.sh" "evil/" ".icons/" ".gimp-2.8/" ".gnome2/" ".vimbackup/" ".furiusisomount/" ".matlab/" ".dropbox/" ".vimperator/" "IdeaProjects/" ".w3m/" ".slime/" "ida-assignment/" "dotfiles/" ".kde/" ".IntelliJIdea2016.3/" ".arduino15/" "Templates/" ".imgur-screenshot.log" ".vimviews/" "lisp-programs/" "jack-handy" ".wget-hsts" ".gvfs/" ".bash_history" ".oh-my-zsh/" "Trilateration-Example/" "PortfolioWebsite/" "Pictures/" ".bashrc" ".subversion/" ".config/" ".mtab.fuseiso" "tkui/" ".vim.20170120_1484912606/" "clojure-noob/" ".bash_logout" ".gtkrc-2.0.mine" ".idea/" ".psql_history" ".urxvt/" ".kodi/" "Downloads/" "matlab_crash_dump.9235-1" ".dropbox_uploader" ".nano/" ".gtkrc.bak" "tensorflow/" ".gksu.lock" ".ecryptfs/" "Documents/" ".fzf/" "tabbedex-urxvt/" "../" "./")
+
+ ("/home/tom/clojure-noob/src/clojure_noob/" (22753 25896 853273 552000) "./" "../" "core.clj")
+
+ ("/home/tom/.emacs.d/elpa/" (22753 21180 928030 43000) "git-rebase-mode-20140605.520/" "rainbow-delimiters-20140713.1131/" "cl-lib-0.5/" "evil-20170323.1140/" "dash-20140717.547/" "./" "clojure-mode-extra-font-locking-20140613.839/" "archives/" "queue-0.1.1/" "epl-20140620.218/" "s-20140714.707/" "el-get-20170112.2204/" "goto-chg-20131228.659/" "cider-readme.txt" "exec-path-from-shell-0/" "undo-tree-20161012.701/" "paredit-20140128.1248/" "tagedit-20140618.521/" "gnupg/" "exec-path-from-shell-20141212.846/" "clojure-mode-20141120.1410/" "pkg-info-20140610.630/" "git-commit-mode-20140605.520/" "../" "cider-20141120.1746/" "projectile-20140716.416/" "ido-ubiquitous-20140526.1306/" "magit-20140720.358/" "smex-20140425.1314/")
+
+ ("/home/tom/.emacs.d/elpa/exec-path-from-shell-0/" (22753 21181 88030 906000) "exec-path-from-shell-pkg.el" "./" "exec-path-from-shell.el" "exec-path-from-shell.elc" "exec-path-from-shell-autoloads.el" "exec-path-from-shell-pkg.elc" "../")
+
+ ("/home/tom/clojure-noob/src/" (22753 14894 370909 694000) "clojure_noob/" "./" "../")
+
+ ("/home/tom/.emacs.d/customizations/" (22574 65191 0 0) "./" "setup-js.el" "shell-integration.el" "elisp-editing.el" "editing.el" "setup-clojure.el" "ui.el" "../" "misc.el" "navigation.el")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

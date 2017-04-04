@@ -1,0 +1,30 @@
+
+;; ----- smex-history -----
+(
+ magit-init
+ package-install
+ evil-edit
+ evil-cp-a-form
+ package-list-packages
+ package-menu-refresh
+ package-refresh-contents
+)
+
+;; ----- smex-data -----
+(
+ (package-list-packages . 4)
+ (package-install . 10)
+ (replace-string . 2)
+ (cider-jack-in . 5)
+ (cd . 1)
+ (el-get-install . 6)
+ (package-menu-refresh . 2)
+ (el-get-update . 2)
+ (el-get-init . 1)
+ (package-install-file . 1)
+ (package-refresh-contents . 6)
+ (evil-cp-a-form . 1)
+ (evil-edit . 1)
+ (hydra-repeat . 1)
+ (magit-init . 1)
+)
