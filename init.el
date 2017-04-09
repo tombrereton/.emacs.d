@@ -78,7 +78,7 @@
 
     ;; edit html tags like sexps
     tagedit
-
+    
 
     ;; git integration
     magit))
@@ -165,6 +165,27 @@
     (cljr-add-keybindings-with-prefix "C-c C-."))
 
 (add-hook 'clojure-mode-hook #'my-clojure-mode-hook)
+
+
+;; python elpy config
+(elpy-enable)
+(elpy-use-ipython)
+
+;; set ipython shell to simple
+(setq python-shell-interpreter "ipython"
+    python-shell-interpreter-args "--simple-prompt -i")
+
+;; autopep8
+(require 'py-autopep8)
+(add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
+
+;; use flycheck not flymake with elpy
+
+  ;;(setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
+  ;;(add-hook 'elpy-mode-hook 'flycheck-mode)
+
+
+
 
 
 
